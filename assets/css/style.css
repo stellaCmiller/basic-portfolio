@@ -2,6 +2,7 @@ h1 {
     color: white;
 }
 
+/* Background pattern from Toptal Subtle Patterns */
 body {
     background-image: url("../images/starring.png");
 }

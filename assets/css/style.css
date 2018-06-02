@@ -12,9 +12,7 @@ body {
 
 header {
     background-color: ivory;
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: #777777;
+    border-bottom: 3px solid #777777;
     margin-bottom: 20px;
 }
 
@@ -23,14 +21,14 @@ h1 {
     margin-left: 15%;
     padding: 20px 20px;
     color: ivory;
-    background-color: lightskyblue;
+    background-color: #4aaaa5;
     font-family: 'Times New Roman', Times, serif;
     font-size: 36pt;
 }
 
 h2 {
     padding: 20px 20px;
-    color: lightskyblue;
+    color: #4aaaa5;
     font-family: 'Times New Roman', Times, serif;
     font-size: 36pt;
 }
@@ -45,13 +43,14 @@ li {
 }
 
 nav {
-    float: right;
-    margin-right: 15%;
+    position: absolute;
+    right: 15%;
+    top: 0px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 35px;
 }
 
-#flex-container {
+.flex-container {
     flex: 1 0 auto;
 }
 section {
@@ -59,8 +58,9 @@ section {
     width: 70%;
     margin-left: 15%;
     font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
     line-height: 1.5;
-    overflow: auto;
+    overflow: auto; 
 }
 
 hr {
@@ -76,10 +76,8 @@ img {
 }
 
 footer {
-    background-color: #777777;
-    border-top-style: solid;
-    border-top-color: lightskyblue;
-    border-top-width: 3px;
+    background-color: #666666;
+    border-top: 3px solid #4aaaa5;
     text-align: center;
     margin-top: 20px;
     flex-shrink: 0;

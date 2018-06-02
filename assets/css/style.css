@@ -16,6 +16,18 @@ header {
     margin-bottom: 20px;
 }
 
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited { color: #666666;}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 h1 {
     display: inline-block;
     margin-left: 15%;
@@ -33,14 +45,10 @@ h2 {
     font-size: 36pt;
 }
 
-p {
-    padding: 20px 20px;
-}
+p { padding: 20px 20px;}
 
 
-li {
-    display: inline;
-}
+li { display: inline;}
 
 nav {
     position: absolute;
@@ -50,9 +58,8 @@ nav {
     padding-top: 35px;
 }
 
-.flex-container {
-    flex: 1 0 auto;
-}
+.flex-container { flex: 1 0 auto;}
+
 section {
     background-color: ivory;
     width: 70%;

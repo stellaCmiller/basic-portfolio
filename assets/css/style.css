@@ -70,9 +70,23 @@ section {
     overflow: auto; 
 }
 
-hr {
+hr, form {
     width: 95%;
     margin: auto;
+}
+
+textarea, input { width: 100%;}
+
+textarea { height: 100px;}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: ivory;
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 5%;
 }
 
 img {
@@ -82,6 +96,7 @@ img {
     height: auto;
     padding: 20px 20px;
 }
+
 
 footer {
     background-color: #666666;

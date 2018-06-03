@@ -49,6 +49,8 @@ h3 {
     position: absolute;
     width: calc(100% - 40px);
     margin-left: 20px;
+    padding: 10px 0px 10px 0px;
+    font-size: 18pt;
     bottom: 20%;
     background-color: #4aaaa5;
     color: ivory;

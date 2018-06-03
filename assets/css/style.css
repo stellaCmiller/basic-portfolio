@@ -45,8 +45,23 @@ h2 {
     font-size: 36pt;
 }
 
-p { padding: 20px 20px;}
+h3 {
+    position: absolute;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    bottom: 20%;
+    background-color: #4aaaa5;
+    color: ivory;
+}
 
+.img-container {  
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+p { padding: 20px 20px;}
 
 li { display: inline;}
 
@@ -62,7 +77,8 @@ nav {
 
 section {
     background-color: ivory;
-    width: 70%;
+    /*I didn't want to hardcode the width because I wanted it to be responsive, but it turns out that 71.17% on my monitor comes out to exactly 960.08px when full screen. Credit to my boyfriend for figuring it out */
+    width: 71.17%;
     margin-left: 15%;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;

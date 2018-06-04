@@ -63,6 +63,11 @@ h3 {
     overflow: hidden;
 }
 
+.img-container:hover h3{
+    border: 5px #666666 solid;
+    margin-left: 15px;
+}
+
 p { padding: 20px 20px;}
 
 li { display: inline;}

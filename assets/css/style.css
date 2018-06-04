@@ -118,7 +118,24 @@ img {
     padding: 20px 20px;
 }
 
+.social {
+    max-width: 32px;
+    height: auto;
+    float: none;
+    padding: 10px;
+}
 
+figure{
+    display: inline-block;
+}
+
+figcaption {
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+}
 footer {
     background-color: #666666;
     border-top: 3px solid #4aaaa5;

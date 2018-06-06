@@ -30,7 +30,6 @@ a:hover {
 
 h1 {
     display: inline-block;
-    margin-left: 15%;
     padding: 20px 20px;
     color: ivory;
     background-color: #4aaaa5;
@@ -74,17 +73,33 @@ li { display: inline;}
 
 nav {
     float: right;
-    margin-right: 15%;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 35px;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        float: none;
+        padding: 5px;
+    }
+}
+
+.heading-container {
+    margin: auto;
+    width: 80%;
+    max-width: 960px;
 }
 
 .flex-container { flex: 1 0 auto;}
 
 section {
     background-color: ivory;
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    max-width: 960px;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     line-height: 1.5;

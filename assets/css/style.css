@@ -77,15 +77,6 @@ nav {
     padding-top: 35px;
 }
 
-@media screen and (max-width: 600px) {
-    nav {
-        text-align: center;
-        width: 70%;
-        margin: auto;
-        float: none;
-        padding: 5px;
-    }
-}
 
 .heading-container {
     margin: auto;
